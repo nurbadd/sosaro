@@ -1,0 +1,41 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^./$ ./index.html [L]
+RewriteRule ^careers/$ ./content/careers.html [L]
+RewriteRule ^projects/$ ./content/projects.html [L]
+RewriteRule ^careers/python-software-developer/$ ./content/careers/python-software-developer.html [L]
+RewriteRule ^careers/senior-software-developer/$ ./content/careers/senior-software-developer.html [L]
+RewriteRule ^newsletter/$ ./content/newsletter.html [L]
+RewriteRule ^schedule/$ ./content/schedule.html [L]
+RewriteRule ^terms/$ ./content/terms.html [L]
+RewriteRule ^privacy/$ ./content/privacy.html [L]
+RewriteRule ^technology-stack/$ ./content/technology-stack.html [L]
+
+RewriteRule ^./nl/$ ./nl/index.html [L]
+RewriteRule ^nl/vacatures/$ ./nl/content/vacatures.html [L]
+RewriteRule ^nl/projecten/$ ./nl/content/projecten.html [L]
+RewriteRule ^nl/vacatures/python-software-developer/$ ./nl/content/vacatures/python-software-developer.html [L]
+RewriteRule ^nl/vacatures/senior-software-developer/$ ./nl/content/vacatures/senior-software-developer.html [L]
+RewriteRule ^nl/nieuwsbrief/$ ./nl/content/nieuwsbrief.html [L]
+RewriteRule ^nl/offerte-binnen-24-uur/$ ./nl/content/offerte-binnen-24-uur.html [L]
+RewriteRule ^nl/algemene-voorwaarden/$ ./nl/content/algemene-voorwaarden.html [L]
+RewriteRule ^nl/privacy/$ ./nl/content/privacy.html [L]
+RewriteRule ^nl/technologie/$ ./nl/content/technologie.html [L]
+
+RewriteRule ^nl/binnenkort-beschikbaar/$ ./nl/content/binnenkort.html [L]
+RewriteRule ^nl/binnenkort-beschikbaar/full-stack-developer/$ ./nl/content/binnenkort/full-stack-developer.html [L]
+RewriteRule ^nl/binnenkort-beschikbaar/digital-architect/$ ./nl/content/binnenkort/digital-architect.html [L]
+
+#Redirect 301 "/newsletter.html" "/newsletter/"
+#Redirect 302 "/terms.html" https://nurbad.online/sosaro
+
+#ErrorDocument 404 ./404.html
+#ErrorDocument 302 http://nurbad.online/sosaro
+</IfModule>
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

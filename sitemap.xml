@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://sosaro.com/nl/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/projecten/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/offerte-binnen-24-uur//</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/nieuwsbrief/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/technologie/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/algemene-voorwaarden/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/privacy/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/binnenkort-beschikbaar/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/binnenkort-beschikbaar/digital-architect/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/binnenkort-beschikbaar/full-stack-developer/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/vacatures/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/vacatures/senior-software-developer/</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sosaro.com/nl/vacatures/python-software-developer</loc>
+  <lastmod>2020-04-23T06:51:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
